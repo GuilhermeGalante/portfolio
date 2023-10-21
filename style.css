@@ -308,6 +308,11 @@ section.portfolio .flex {
   transition: 0.5s;
 }
 
+.overlay-pj1{
+  color: #fff;
+  text-decoration: none;
+}
+
 .overlay:hover {
   opacity: 1;
 }
