@@ -402,6 +402,21 @@ footer .line-footer p a {
   margin-left: 10px;
 }
 
+footer .titulo-links {
+  color: #fff;
+  display: block;
+  font-weight: 600;
+  margin-bottom: 24px;
+  margin-top: 24px
+}
+
+footer .links-rapidos nav ul li a{
+  color: #fff;
+  display: block;
+  margin-bottom: 16px;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 1020px) {
   .btn-abrir-menu{
     display: block;
