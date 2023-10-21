@@ -80,6 +80,12 @@ header nav.menu-desktop ul li {
 }
 
 /* Estilo do menu mobile */
+/* para nao abir no pc */
+.btn-abrir-menu{
+  display: none;
+}
+
+
 .btn-abrir-menu i {
   color: #da9202;
   font-size: 40px;
@@ -141,6 +147,8 @@ header nav.menu-desktop ul li {
   background-color: #da9202;
   color: #000;
 }
+
+/* CABEÇALHO */
 
 /* estilo do topo do site */
 section.topo-do-site {
@@ -395,6 +403,14 @@ footer .line-footer p a {
 }
 
 @media screen and (max-width: 1020px) {
+  .btn-abrir-menu{
+    display: block;
+  }
+
+  .menu-desktop, .btn-contato{
+    display: none;
+  }
+
   /* classes gerais */
   .flex {
     flex-direction: column;
