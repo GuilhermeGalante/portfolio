@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script defer src="app.js"></script>
+
     <title>Guilherme Galante</title>
     <link rel="stylesheet" href="style.css" />
     <!--favicon-->
@@ -59,6 +62,29 @@
           </a>
         </div>
         <!--btn-contato-->
+
+        <div class="btn-abrir-menu" id="btn-menu">
+          <i class="bi bi-list"></i>
+        </div>
+
+        <div class="menu-mobile" id="menu-mobile">
+          <div class="btn-fechar">
+            <i class="bi bi-x"></i>
+          </div><!--btn-fechar-->
+          <nav>
+            <ul>
+              <li><a href="#inicio">Início</a></li>
+              <li><a href="#especialidades">Especialidades</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#projetos">Projetos</a></li>
+              <li><a href="#">Contato</a></li>
+            </ul>
+          </nav><!--nav-mobile--->
+
+        </div><!--menu-mobile-->
+        <div class="overlay-menu" id="overlay-menu">
+
+        </div><!--overlay-menu-->
       </div>
       <!--Interface-->
     </header>
@@ -251,7 +277,7 @@
               <input type="submit" data-button value="ENVIAR" />
             </div>
           </form>
-          <script defer src="app.js"></script>
+          
         </div>
         <!--interface-->
       </section>
