@@ -161,7 +161,11 @@ section.topo-do-site .flex {
 .topo-do-site h1 {
   color: #fff;
   font-size: 42px;
+<<<<<<< HEAD
   line-height: 50px;
+=======
+  line-height: 40px;
+>>>>>>> 6ea3036700d6ae9035a4432173ba7eb0739367ed
 }
 
 .topo-do-site .txt-topo-site h1 span {
@@ -173,11 +177,14 @@ section.topo-do-site .flex {
   margin: 40px 0;
 }
 
+<<<<<<< HEAD
 .topo-do-site .txt-topo-site ul li{
   color: #fff;
   margin-left: 40px;
 }
 
+=======
+>>>>>>> 6ea3036700d6ae9035a4432173ba7eb0739367ed
 /* botoes sociais rodape */
 .btn-social button {
     width: 60px;
@@ -232,7 +239,11 @@ footer .titulo-links {
 footer .links-rapidos nav ul li a {
   color: #fff;
   display: block;
+<<<<<<< HEAD
   margin-bottom: 8px;
+=======
+  margin-bottom: 16px;
+>>>>>>> 6ea3036700d6ae9035a4432173ba7eb0739367ed
   text-decoration: none;
 }
 
