@@ -308,6 +308,11 @@ section.portfolio .flex {
   transition: 0.5s;
 }
 
+.overlay a{
+  text-decoration: none;
+  color: #fff;
+}
+
 .overlay:hover {
   opacity: 1;
 }
@@ -413,7 +418,7 @@ footer .titulo-links {
 footer .links-rapidos nav ul li a{
   color: #fff;
   display: block;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   text-decoration: none;
 }
 
