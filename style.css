@@ -143,6 +143,10 @@ header nav.menu-desktop ul li {
   display: none;
 }
 
+.img-port .overlay {
+  text-decoration: underline;
+}
+
 .menu-mobile nav ul li a:hover {
   background-color: #da9202;
   color: #000;
